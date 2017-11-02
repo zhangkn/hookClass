@@ -15,6 +15,7 @@
 		E17CE67C1FAAF5D8000D6DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17CE67A1FAAF5D8000D6DB4 /* LaunchScreen.storyboard */; };
 		E17CE6871FAAF5D8000D6DB4 /* hookClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6861FAAF5D8000D6DB4 /* hookClassTests.m */; };
 		E17CE6921FAAF5D8000D6DB4 /* hookClassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6911FAAF5D8000D6DB4 /* hookClassUITests.m */; };
+		E17CE6A21FAAF661000D6DB4 /* KNHook.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6A11FAAF661000D6DB4 /* KNHook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E17CE68D1FAAF5D8000D6DB4 /* hookClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hookClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17CE6911FAAF5D8000D6DB4 /* hookClassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hookClassUITests.m; sourceTree = "<group>"; };
 		E17CE6931FAAF5D8000D6DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17CE6A01FAAF661000D6DB4 /* KNHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNHook.h; sourceTree = "<group>"; };
+		E17CE6A11FAAF661000D6DB4 /* KNHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNHook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +104,7 @@
 		E17CE66B1FAAF5D8000D6DB4 /* hookClass */ = {
 			isa = PBXGroup;
 			children = (
-				E17CE66F1FAAF5D8000D6DB4 /* AppDelegate.h */,
-				E17CE6701FAAF5D8000D6DB4 /* AppDelegate.m */,
-				E17CE6721FAAF5D8000D6DB4 /* ViewController.h */,
-				E17CE6731FAAF5D8000D6DB4 /* ViewController.m */,
-				E17CE6751FAAF5D8000D6DB4 /* Main.storyboard */,
-				E17CE6781FAAF5D8000D6DB4 /* Assets.xcassets */,
-				E17CE67A1FAAF5D8000D6DB4 /* LaunchScreen.storyboard */,
-				E17CE67D1FAAF5D8000D6DB4 /* Info.plist */,
+				E17CE69F1FAAF633000D6DB4 /* KNHookClass */,
 				E17CE66C1FAAF5D8000D6DB4 /* Supporting Files */,
 			);
 			path = hookClass;
@@ -117,6 +113,14 @@
 		E17CE66C1FAAF5D8000D6DB4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E17CE66F1FAAF5D8000D6DB4 /* AppDelegate.h */,
+				E17CE6701FAAF5D8000D6DB4 /* AppDelegate.m */,
+				E17CE6721FAAF5D8000D6DB4 /* ViewController.h */,
+				E17CE6731FAAF5D8000D6DB4 /* ViewController.m */,
+				E17CE6751FAAF5D8000D6DB4 /* Main.storyboard */,
+				E17CE6781FAAF5D8000D6DB4 /* Assets.xcassets */,
+				E17CE67A1FAAF5D8000D6DB4 /* LaunchScreen.storyboard */,
+				E17CE67D1FAAF5D8000D6DB4 /* Info.plist */,
 				E17CE66D1FAAF5D8000D6DB4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +142,15 @@
 				E17CE6931FAAF5D8000D6DB4 /* Info.plist */,
 			);
 			path = hookClassUITests;
+			sourceTree = "<group>";
+		};
+		E17CE69F1FAAF633000D6DB4 /* KNHookClass */ = {
+			isa = PBXGroup;
+			children = (
+				E17CE6A01FAAF661000D6DB4 /* KNHook.h */,
+				E17CE6A11FAAF661000D6DB4 /* KNHook.m */,
+			);
+			path = KNHookClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +215,7 @@
 		E17CE6611FAAF5D8000D6DB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KN;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Weiliu;
 				TargetAttributes = {
@@ -277,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */,
+				E17CE6A21FAAF661000D6DB4 /* KNHook.m in Sources */,
 				E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */,
 				E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */,
 			);
