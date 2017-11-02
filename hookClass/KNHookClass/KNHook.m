@@ -50,7 +50,7 @@ return @(val); \
             continue;
         }
         NSString *hookedName = [KNHook methodLogMethodName:selString];
-        // printf("%s:%s\n",[hookString UTF8String],[hookedName UTF8String]);
+        // NSLog("%s:%s\n",[hookString UTF8String],[hookedName UTF8String]);
         class_addMethod(hookClass, NSSelectorFromString(hookedName), imp, typeEncoding);
         //将旧地址指向forward invocaton
         class_replaceMethod(hookClass, methodSel, [KNHook getMsgForwardIMP:hookClass sel:methodSel], typeEncoding);
@@ -80,7 +80,7 @@ return @(val); \
                 [muString appendFormat:@"\nvalue%ld:%@-->%@",i-1,classString,ret];
             }
             
-            printf("-(%s)%s(have %ld value)\nreturn:%s%s\nobject:%s\n ##########################################\n",[returnType UTF8String],[newSelectorName UTF8String],number-2,[retObj UTF8String],[muString UTF8String],[objString UTF8String]);
+            NSLog(@"-(%s)%s(have %ld value)\nreturn:%s%s\nobject:%s\n ##########################################\n",[returnType UTF8String],[newSelectorName UTF8String],number-2,[retObj UTF8String],[muString UTF8String],[objString UTF8String]);
         } @catch (NSException *exception) {
             NSLog(@"%@",[exception description]);
         } @finally {
