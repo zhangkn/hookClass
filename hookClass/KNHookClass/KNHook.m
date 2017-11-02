@@ -80,7 +80,7 @@ return @(val); \
                 [muString appendFormat:@"\nvalue%ld:%@-->%@",i-1,classString,ret];
             }
             
-            NSLog(@"-(%s)%s(have %ld value)\nreturn:%s%s\nobject:%s\n ##########################################\n",[returnType UTF8String],[newSelectorName UTF8String],number-2,[retObj UTF8String],[muString UTF8String],[objString UTF8String]);
+            NSLog(@"KNHooklog :-(%s)%s(have %ld value)\nreturn:%s%s\nobject:%s\n ##########################################\n",[returnType UTF8String],[newSelectorName UTF8String],number-2,[retObj UTF8String],[muString UTF8String],[objString UTF8String]);
         } @catch (NSException *exception) {
             NSLog(@"%@",[exception description]);
         } @finally {

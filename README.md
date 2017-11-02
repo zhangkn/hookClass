@@ -1,4 +1,4 @@
-# BigBang
+# KNHook
 
 性能损耗
 
@@ -13,7 +13,7 @@
 
 函数副本方法：
 
-所有方法都加上 BigBang_前缀
+所有方法都加上 KNHook_前缀
 副本方法IMP指针使用原方法的
 
 存IMP指针方法
@@ -43,7 +43,7 @@
 
 使用方法
 
-[BigBang hookClass:@"A_ManageViewController"];
+[KNHook hookClass:@"TenpayPasswordCtrl"];
 
 常规使用：
 
@@ -62,19 +62,34 @@ __attribute__((constructor)) static void entry()
 
 在终端那个应用里面就能看到日志
 
+Nov  2 15:08:36 iPhone WeChat[2499] <Warning>: KNHooklog :-(void)appendPsw:(have 1 value)
+return:(null)
+value1:__NSCFString-->7
+object:<TenpayPasswordCtrl: 0x1750a620; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; gestureRecognizers = <NSArray: 0x17635150>; layer = <CALayer: 0x175218b0>>
+##########################################
+Nov  2 15:08:36 iPhone WeChat[2499] <Notice>: [RedRobert] Tweak.xm:350 DEBUG: -[<TenpayPasswordCtrl: 0x1750a620> appendPsw:7]
+Nov  2 15:08:36 iPhone WeChat[2499] <Warning>: KNHooklog :-(void)onChange(have 0 value)
+return:(null)
+object:<TenpayPasswordCtrl: 0x1750a620; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; gestureRecognizers = <NSArray: 0x17635150>; layer = <CALayer: 0x175218b0>>
+##########################################
+Nov  2 15:08:36 iPhone WeChat[2499] <Notice>: [RedRobert] Tweak.xm:356 DEBUG: -[<TenpayPasswordCtrl: 0x1750a620> onChange]
+Nov  2 15:08:36 iPhone WeChat[2499] <Warning>: KNHooklog :-(id)ctrlDelegate(have 0 value)
+return:(null)
+object:<TenpayPasswordCtrl: 0x1750a620; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; gestureRecognizers = <NSArray: 0x17635150>; layer = <CALayer: 0x175218b0>>
+##########################################
 
-![avatar](B0EEAE8F-5C95-4556-9848-B2072CAA1D96.png)  
+
+
 
 微信
 
-[BigBang hookClass:@"WCPayLogicMgr"];
+[KNHook hookClass:@"WCPayLogicMgr"];
 
-[BigBang hookClass:@"WCRedEnvelopesLogicMgr"];
+[KNHook hookClass:@"WCRedEnvelopesLogicMgr"];
 
-[BigBang hookClass:@"ContactUpdateHelper"];
+[KNHook hookClass:@"ContactUpdateHelper"];
 
-[BigBang hookClass:@"WCRedEnvelopesNetworkHelper"];
+[KNHook hookClass:@"WCRedEnvelopesNetworkHelper"];
 
-[BigBang hookClass:@"WCRedEnvelopesReceiveHomeView"]
+[KNHook hookClass:@"WCRedEnvelopesReceiveHomeView"]
 
-![avatar](0B7E92FC-D33C-4253-9C81-B291FA07F3AB.png)  
