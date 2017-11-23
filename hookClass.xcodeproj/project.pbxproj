@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3151FC66A000078CCAE /* ANYMethodLog.m */; };
 		E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE66D1FAAF5D8000D6DB4 /* main.m */; };
 		E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6701FAAF5D8000D6DB4 /* AppDelegate.m */; };
 		E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6731FAAF5D8000D6DB4 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E10CC3141FC66A000078CCAE /* ANYMethodLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANYMethodLog.h; sourceTree = "<group>"; };
+		E10CC3151FC66A000078CCAE /* ANYMethodLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANYMethodLog.m; sourceTree = "<group>"; };
 		E17CE6691FAAF5D8000D6DB4 /* hookClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hookClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17CE66D1FAAF5D8000D6DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E17CE66F1FAAF5D8000D6DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E10CC3131FC66A000078CCAE /* ANYMethodLog */ = {
+			isa = PBXGroup;
+			children = (
+				E10CC3141FC66A000078CCAE /* ANYMethodLog.h */,
+				E10CC3151FC66A000078CCAE /* ANYMethodLog.m */,
+			);
+			path = ANYMethodLog;
+			sourceTree = "<group>";
+		};
 		E17CE6601FAAF5D8000D6DB4 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +116,7 @@
 		E17CE66B1FAAF5D8000D6DB4 /* hookClass */ = {
 			isa = PBXGroup;
 			children = (
+				E10CC3131FC66A000078CCAE /* ANYMethodLog */,
 				E17CE69F1FAAF633000D6DB4 /* KNHookClass */,
 				E17CE66C1FAAF5D8000D6DB4 /* Supporting Files */,
 			);
@@ -291,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */,
+				E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */,
 				E17CE6A21FAAF661000D6DB4 /* KNHook.m in Sources */,
 				E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */,
 				E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */,
@@ -531,6 +545,7 @@
 				E17CE6981FAAF5D8000D6DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E17CE6991FAAF5D8000D6DB4 /* Build configuration list for PBXNativeTarget "hookClassTests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +554,7 @@
 				E17CE69B1FAAF5D8000D6DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E17CE69C1FAAF5D8000D6DB4 /* Build configuration list for PBXNativeTarget "hookClassUITests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +563,7 @@
 				E17CE69E1FAAF5D8000D6DB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
