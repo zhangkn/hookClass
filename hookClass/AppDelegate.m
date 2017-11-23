@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "ANYMethodLog.h"
+#import "Meow.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [ANYMethodLog logMethodWithClass:@"ViewController"];
+
     return YES;
 }
 

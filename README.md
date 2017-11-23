@@ -93,6 +93,9 @@ object:<TenpayPasswordCtrl: 0x1750a620; baseClass = UITextField; frame = (0 0; 2
 
 [KNHook hookClass:@"WCRedEnvelopesReceiveHomeView"]
 
+
+#ANYMethodLog
+
 《追踪方法调用顺序：》
 
 [ANYMethodLog logMethodWithClass:@"ViewController"];
@@ -114,4 +117,38 @@ Nov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《after》方法调用deep:
 《selector》: initWithFrame:{{0, 0}, {246, 42}} AndImage:<UIImage: 0x17d3d810> ]
 返回值:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; layer = <CALayer: 0x17d3eb30>>
 interval:0.005786
+
+
+#Meow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -7,17 +7,32 @@
 //
 
 #import "ViewController.h"
-#import "ANYMethodLog.h"
-@interface ViewController ()
+#import "Meow.h"
+@interface ViewController (){
+    
+    NSString * _password;
+}
 
 @end
 
 @implementation ViewController
 
+
++ (void)load{
+    
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    [Meow initWithClassName:@"ViewController"];
+
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [ANYMethodLog logMethodWithClass:@"ViewController"];
+    self->_password = @"喵咕咪~"; // directly access, undectectable in BigBang or ANYMethodLog
+
 }
 
 

@@ -9,6 +9,17 @@
 /* Begin PBXBuildFile section */
 		E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3151FC66A000078CCAE /* ANYMethodLog.m */; };
 		E10CC31A1FC66BE90078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3191FC66BE90078CCAE /* README.md */; };
+		E10CC3211FC66CFE0078CCAE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E10CC31C1FC66CFE0078CCAE /* LICENSE */; };
+		E10CC3221FC66CFE0078CCAE /* meow-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = E10CC31D1FC66CFE0078CCAE /* meow-screenshot.png */; };
+		E10CC3231FC66CFE0078CCAE /* Meow.mm in Sources */ = {isa = PBXBuildFile; fileRef = E10CC31F1FC66CFE0078CCAE /* Meow.mm */; };
+		E10CC3241FC66CFE0078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3201FC66CFE0078CCAE /* README.md */; };
+		E10CC32A1FC66D970078CCAE /* choose.mm in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3271FC66D970078CCAE /* choose.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E10CC32B1FC66D970078CCAE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E10CC3281FC66D970078CCAE /* LICENSE */; };
+		E10CC32C1FC66D970078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3291FC66D970078CCAE /* README.md */; };
+		E10CC3331FC66E030078CCAE /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = E10CC32E1FC66E030078CCAE /* fishhook.c */; };
+		E10CC3341FC66E030078CCAE /* fishhook.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E10CC3301FC66E030078CCAE /* fishhook.podspec */; };
+		E10CC3351FC66E030078CCAE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E10CC3311FC66E030078CCAE /* LICENSE */; };
+		E10CC3361FC66E030078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3321FC66E030078CCAE /* README.md */; };
 		E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE66D1FAAF5D8000D6DB4 /* main.m */; };
 		E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6701FAAF5D8000D6DB4 /* AppDelegate.m */; };
 		E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6731FAAF5D8000D6DB4 /* ViewController.m */; };
@@ -41,6 +52,20 @@
 		E10CC3141FC66A000078CCAE /* ANYMethodLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANYMethodLog.h; sourceTree = "<group>"; };
 		E10CC3151FC66A000078CCAE /* ANYMethodLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANYMethodLog.m; sourceTree = "<group>"; };
 		E10CC3191FC66BE90078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E10CC31C1FC66CFE0078CCAE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E10CC31D1FC66CFE0078CCAE /* meow-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "meow-screenshot.png"; sourceTree = "<group>"; };
+		E10CC31E1FC66CFE0078CCAE /* Meow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meow.h; sourceTree = "<group>"; };
+		E10CC31F1FC66CFE0078CCAE /* Meow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Meow.mm; sourceTree = "<group>"; };
+		E10CC3201FC66CFE0078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E10CC3261FC66D970078CCAE /* choose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choose.h; sourceTree = "<group>"; };
+		E10CC3271FC66D970078CCAE /* choose.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = choose.mm; sourceTree = "<group>"; };
+		E10CC3281FC66D970078CCAE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E10CC3291FC66D970078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E10CC32E1FC66E030078CCAE /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		E10CC32F1FC66E030078CCAE /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		E10CC3301FC66E030078CCAE /* fishhook.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fishhook.podspec; sourceTree = "<group>"; };
+		E10CC3311FC66E030078CCAE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E10CC3321FC66E030078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E17CE6691FAAF5D8000D6DB4 /* hookClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hookClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17CE66D1FAAF5D8000D6DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E17CE66F1FAAF5D8000D6DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +120,43 @@
 			path = ANYMethodLog;
 			sourceTree = "<group>";
 		};
+		E10CC31B1FC66CFE0078CCAE /* Meow */ = {
+			isa = PBXGroup;
+			children = (
+				E10CC32D1FC66E030078CCAE /* fishhook */,
+				E10CC3251FC66D970078CCAE /* choose */,
+				E10CC31C1FC66CFE0078CCAE /* LICENSE */,
+				E10CC31D1FC66CFE0078CCAE /* meow-screenshot.png */,
+				E10CC31E1FC66CFE0078CCAE /* Meow.h */,
+				E10CC31F1FC66CFE0078CCAE /* Meow.mm */,
+				E10CC3201FC66CFE0078CCAE /* README.md */,
+			);
+			path = Meow;
+			sourceTree = "<group>";
+		};
+		E10CC3251FC66D970078CCAE /* choose */ = {
+			isa = PBXGroup;
+			children = (
+				E10CC3261FC66D970078CCAE /* choose.h */,
+				E10CC3271FC66D970078CCAE /* choose.mm */,
+				E10CC3281FC66D970078CCAE /* LICENSE */,
+				E10CC3291FC66D970078CCAE /* README.md */,
+			);
+			path = choose;
+			sourceTree = "<group>";
+		};
+		E10CC32D1FC66E030078CCAE /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				E10CC32E1FC66E030078CCAE /* fishhook.c */,
+				E10CC32F1FC66E030078CCAE /* fishhook.h */,
+				E10CC3301FC66E030078CCAE /* fishhook.podspec */,
+				E10CC3311FC66E030078CCAE /* LICENSE */,
+				E10CC3321FC66E030078CCAE /* README.md */,
+			);
+			path = fishhook;
+			sourceTree = "<group>";
+		};
 		E17CE6601FAAF5D8000D6DB4 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +181,7 @@
 		E17CE66B1FAAF5D8000D6DB4 /* hookClass */ = {
 			isa = PBXGroup;
 			children = (
+				E10CC31B1FC66CFE0078CCAE /* Meow */,
 				E10CC3131FC66A000078CCAE /* ANYMethodLog */,
 				E17CE69F1FAAF633000D6DB4 /* KNHookClass */,
 				E17CE66C1FAAF5D8000D6DB4 /* Supporting Files */,
@@ -279,8 +342,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10CC3341FC66E030078CCAE /* fishhook.podspec in Resources */,
+				E10CC32B1FC66D970078CCAE /* LICENSE in Resources */,
+				E10CC3351FC66E030078CCAE /* LICENSE in Resources */,
 				E17CE67C1FAAF5D8000D6DB4 /* LaunchScreen.storyboard in Resources */,
 				E17CE6791FAAF5D8000D6DB4 /* Assets.xcassets in Resources */,
+				E10CC3221FC66CFE0078CCAE /* meow-screenshot.png in Resources */,
+				E10CC3211FC66CFE0078CCAE /* LICENSE in Resources */,
 				E17CE6771FAAF5D8000D6DB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,11 +374,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E10CC32A1FC66D970078CCAE /* choose.mm in Sources */,
 				E10CC31A1FC66BE90078CCAE /* README.md in Sources */,
+				E10CC32C1FC66D970078CCAE /* README.md in Sources */,
+				E10CC3231FC66CFE0078CCAE /* Meow.mm in Sources */,
+				E10CC3331FC66E030078CCAE /* fishhook.c in Sources */,
 				E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */,
+				E10CC3361FC66E030078CCAE /* README.md in Sources */,
 				E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */,
 				E17CE6A21FAAF661000D6DB4 /* KNHook.m in Sources */,
 				E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */,
+				E10CC3241FC66CFE0078CCAE /* README.md in Sources */,
 				E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +536,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVWU8XCYJX;
 				INFOPLIST_FILE = hookClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weiliu.hookClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -474,6 +549,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVWU8XCYJX;
 				INFOPLIST_FILE = hookClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.weiliu.hookClass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
