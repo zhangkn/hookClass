@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3151FC66A000078CCAE /* ANYMethodLog.m */; };
-		E10CC3181FC66AFF0078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3171FC66AFF0078CCAE /* README.md */; };
+		E10CC31A1FC66BE90078CCAE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E10CC3191FC66BE90078CCAE /* README.md */; };
 		E17CE66E1FAAF5D8000D6DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE66D1FAAF5D8000D6DB4 /* main.m */; };
 		E17CE6711FAAF5D8000D6DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6701FAAF5D8000D6DB4 /* AppDelegate.m */; };
 		E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CE6731FAAF5D8000D6DB4 /* ViewController.m */; };
@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		E10CC3141FC66A000078CCAE /* ANYMethodLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANYMethodLog.h; sourceTree = "<group>"; };
 		E10CC3151FC66A000078CCAE /* ANYMethodLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANYMethodLog.m; sourceTree = "<group>"; };
-		E10CC3171FC66AFF0078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E10CC3191FC66BE90078CCAE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E17CE6691FAAF5D8000D6DB4 /* hookClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hookClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17CE66D1FAAF5D8000D6DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E17CE66F1FAAF5D8000D6DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +98,7 @@
 		E17CE6601FAAF5D8000D6DB4 = {
 			isa = PBXGroup;
 			children = (
+				E10CC3191FC66BE90078CCAE /* README.md */,
 				E17CE66B1FAAF5D8000D6DB4 /* hookClass */,
 				E17CE6851FAAF5D8000D6DB4 /* hookClassTests */,
 				E17CE6901FAAF5D8000D6DB4 /* hookClassUITests */,
@@ -118,7 +119,6 @@
 		E17CE66B1FAAF5D8000D6DB4 /* hookClass */ = {
 			isa = PBXGroup;
 			children = (
-				E10CC3171FC66AFF0078CCAE /* README.md */,
 				E10CC3131FC66A000078CCAE /* ANYMethodLog */,
 				E17CE69F1FAAF633000D6DB4 /* KNHookClass */,
 				E17CE66C1FAAF5D8000D6DB4 /* Supporting Files */,
@@ -306,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E10CC3181FC66AFF0078CCAE /* README.md in Sources */,
+				E10CC31A1FC66BE90078CCAE /* README.md in Sources */,
 				E17CE6741FAAF5D8000D6DB4 /* ViewController.m in Sources */,
 				E10CC3161FC66A000078CCAE /* ANYMethodLog.m in Sources */,
 				E17CE6A21FAAF661000D6DB4 /* KNHook.m in Sources */,

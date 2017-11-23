@@ -93,3 +93,25 @@ object:<TenpayPasswordCtrl: 0x1750a620; baseClass = UITextField; frame = (0 0; 2
 
 [KNHook hookClass:@"WCRedEnvelopesReceiveHomeView"]
 
+《追踪方法调用顺序：》
+
+[ANYMethodLog logMethodWithClass:@"ViewController"];
+
+
+ov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《before》方法调用deep:
+[target:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 0 0); transform = [0, 0, 0, 0, 0, 0]; alpha = 0; opaque = NO; layer = (null)>
+《selector》: initWithFrame:{{0, 0}, {246, 42}} AndImage:<UIImage: 0x17d3d810> ]
+Nov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《before》方法调用deep:-
+[target:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; layer = <CALayer: 0x17d3eb30>>
+《selector》: setSaltVal:unknown ]
+Nov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《after》方法调用deep:-
+[target:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; layer = <CALayer: 0x17d3eb30>>
+《selector》: setSaltVal:unknown ]
+返回值:void
+interval:0.000018
+Nov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《after》方法调用deep:
+[target:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; layer = <CALayer: 0x17d3eb30>>
+《selector》: initWithFrame:{{0, 0}, {246, 42}} AndImage:<UIImage: 0x17d3d810> ]
+返回值:<TenpayPasswordCtrl: 0x17d3da20; baseClass = UITextField; frame = (0 0; 246 42); text = ''; clipsToBounds = YES; opaque = NO; layer = <CALayer: 0x17d3eb30>>
+interval:0.005786
+
