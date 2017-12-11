@@ -119,14 +119,14 @@ Nov 23 10:27:46 iPhone WeChat[7309] <Warning>: 《after》方法调用deep:
 interval:0.005786
 
 
-#Meow
+# Meow
 
 
 
 
+# 拒绝forwardInvocation
 
-
-
+iOS保护应用安全: https://blog.0xbbc.com/2017/08/anti-forwardinvocation-in-objective-c/
 
 
 
